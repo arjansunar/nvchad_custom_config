@@ -1,3 +1,37 @@
-# Example_config
+# Arjan's config
 
-This can be used as an example custom config for NvChad, this branch is a minimal one. Do check the feature_full branch if you need all the ease in your config.
+### Pre-installed Lsps
+
+```lua
+Mason ={
+ ensure_installed ={
+    -- lua stuff
+    "lua-language-server",
+    "stylua",
+
+    -- web dev stuff
+    "css-lsp",
+    "html-lsp",
+    "typescript-language-server",
+    "deno",
+    "prettier",
+
+    -- python stuff
+    "pyright",
+    "sourcery",
+    "black"
+  }   
+}
+```
+
+### Additional key-maps
+
+```lua
+Mappings = {
+  n = {
+    [";"] = { ":", "enter command mode", opts = { nowait = true } },
+    -- force exit
+    ["<C-q>"] = { ":q!<CR>", "force exit", opts = { nowait = true } },
+  },
+}
+```

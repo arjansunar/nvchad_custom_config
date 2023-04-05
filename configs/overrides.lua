@@ -37,6 +37,7 @@ M.mason = {
     -- python stuff
     "pyright",
     "sourcery",
+    "black"
   },
 }
 
