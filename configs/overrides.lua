@@ -40,7 +40,11 @@ M.mason = {
     "black",
 
     -- bash
-    "bashls",
+    "bash-language-server",
+
+    -- ansible
+    "ansible-language-server",
+    "ansible-lint",
   },
 }
 
