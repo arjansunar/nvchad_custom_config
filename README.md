@@ -20,7 +20,7 @@ Mason ={
     "pyright",
     "sourcery",
     "black"
-  }   
+  }
 }
 ```
 
@@ -32,6 +32,8 @@ Mappings = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
     -- force exit
     ["<C-q>"] = { ":q!<CR>", "force exit", opts = { nowait = true } },
+    -- wrap with backtiks
+    ["<leader>;"] = { 'ciw`<c-r>"`', "Wrap with `", opts = { nowait = true } },
   },
 }
 ```

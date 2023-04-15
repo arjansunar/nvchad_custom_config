@@ -45,6 +45,9 @@ M.mason = {
     -- ansible
     "ansible-language-server",
     "ansible-lint",
+
+    -- rust
+    "rust-analyzer",
   },
 }
 
