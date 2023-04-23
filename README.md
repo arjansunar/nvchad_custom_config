@@ -1,5 +1,11 @@
 # Arjan's config
 
+## Install script
+
+```bash 
+git clone git@github.com:arjansunar/nvchad_custom_config.git ~/.config/nvim/lua/custom/ 
+```
+
 ### Pre-installed Lsps
 
 ```lua
